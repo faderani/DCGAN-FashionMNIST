@@ -55,10 +55,10 @@ Future work will look into matching different architectures. One promising direc
 </p>
 
 #### Teaser
-To this end, we have tried matching a conditional BigGAN [[8]](https://arxiv.org/pdf/1809.11096.pdf) trained on ImageNet [[9]] (https://ieeexplore.ieee.org/document/5206848) with the CLIP visual model. An example of a meaningful match can be found in Figure 5. 
+To this end, we have tried matching a conditional BigGAN [[8]](https://arxiv.org/pdf/1809.11096.pdf) trained on ImageNet [[9]] (https://ieeexplore.ieee.org/document/5206848) with the CLIP visual model. An example of a meaningful match can be found in Figure 5. We fed in 1000 images corresponding to each class in ImageNet, and these discovered units always maximally activate and match for dog faces. The CLIP unit can be confirmed via [OpenAI Microscope](https://microscope.openai.com/models/contrastive_rn50/image_block_3_3_add_5_0/504).
 
 <p align="center">
-  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/dog_example.PNG" width="400" alt>
+  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/dog_example.PNG" width="600" alt>
   <br>
-  Figure 5: Matching GAN with CLIP. We posit that matching a GAN with CLIP can lead to discovering understandable attributes in GANs. The visualizations at the bottom right are the result of activation maximization, finding the maximally activating image for a certain text prompt via gradient ascent on the input image to CLIP.
+  Figure 5: A meaningful discovered match between the GAN and CLIP. We display the generated image to the left. The two rightmost maps correspond to the unit responses for these images. The middle two heatmaps correspond to a heatmap overlay of these binary masks which show where the visual attention is.
 </p>

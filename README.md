@@ -46,10 +46,10 @@ Below in Figure 3, we show an example of units that match the best according to 
 </p>
 
 ### Future Works
-
+Future work will look into matching different architectures. One promising direction is matching a GAN with CLIP [[6]](https://arxiv.org/abs/2103.00020), as illustrated in Figure 4. CLIP has been found to have meaningful learned representations that correspond to human understandable objects and attributes [[7]](https://distill.pub/2021/multimodal-neurons/). We envision it can be used to find meaningful representations in GANS. 
 
 <p align="center">
-  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/match_diff.png" width="340" alt>
+  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/match_diff.png" width="400" alt>
   <br>
-  Figure 4: The overview of our method.
+  Figure 4: Matching GAN with CLIP. We posit that matching a GAN with CLIP can lead to discovering understandable attributes in GANs. The visualizations at the bottom right are the result of activation maximization, finding the maximally activating image for a certain text prompt via gradient ascent on the input image to CLIP.
 </p>

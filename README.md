@@ -28,7 +28,7 @@ We took two identical unconditional DCGANs [[4]](https://arxiv.org/pdf/1511.0643
 
 ### Results/Insights
 
-Some explanations about similarity matrix, different epochs
+Below we display the similarity matrices as we train the two GANs across multiple epochs. Brighter colors indicate a better match. Notice how there is not perfect correspondence across the top left to bottom right diagonal, which would indicate each corresponding unit in the two GANs match. This suggests that there is significant stochasticity in training GANs, and the GANs will not necessarily learn the same or similar representation in each unit across different runs. 
 
 <p align="center">
   <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/smiliarity.png" alt>

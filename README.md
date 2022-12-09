@@ -2,6 +2,7 @@
 ### Northwestern University CS496: Deep Generative Models (Prof. Bryan Pardo)
 ## By: Amil Dravid, Soroush Shahi
 #### amildravid2023@u.northwestern.edu, soroush@u.northwestern.edu
+#### 
 
 <p align="center">
   <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/generation.gif" alt>

@@ -36,7 +36,7 @@ Below we display the similarity matrices as we train the two GANs across multipl
   Figure 2: Similarity matrices for the two GANs at the beginning of training and at the end. The downsampled similarity matrices are provided for easier visualization. Notice how the early units lose similarity during training, but the later layers obtain the highest similarity. 
 </p>
 
-Some explanations about results
+Below in Figure 3, we show an example of matching units and their responses while generating an image. We use the same z vector, but the GANs 
 
 
 <p align="center">

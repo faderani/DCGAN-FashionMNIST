@@ -1,5 +1,8 @@
 # Feature Matching in GANs
 ##### Amil Dravid, Soroush Shahi -- Northwestern University CS496: Deep Generative Models by Bryan Pardo
+<p align="center">
+  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/generation.gif" alt>
+</p>
 ### Introduction/Motivation
 
 The performance of deep learning in vision tasks such as image classification and generation has reached new heights in the past decade. However, the internal mechanics of these models remains an open problem. Visualizing and understanding deep neural nets can assist in the development of better models and new insights. To this end, 

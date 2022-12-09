@@ -64,3 +64,9 @@ To this end, we have tried matching a conditional BigGAN [[8]](https://arxiv.org
 </p>
 
 As we discovered the unit in the GAN corresponding to dog faces, we can edit the image by overriding the activation response for that channel with some other value. This is shown in Figure 6. This enables image editing without accessing the initial latent code. We find this a promising future direction to pursue. 
+
+<p align="center">
+  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/dog_edit.PNG" width="600" alt>
+  <br>
+  Figure 6: After discovering a meaningful channel or unit in the GAN, during the forward generation process, we can override the channel response with some value in order to edit an image. 
+</p>

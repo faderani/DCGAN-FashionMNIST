@@ -42,7 +42,7 @@ Below in Figure 3, we show an example of units that match the best according to 
 <p align="center">
   <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/results.png" alt>
   <br>
-  Figure 3: The overview of our method.
+  Figure 3: Visualizing a pair of units that match according to the score matching algorithm. The left two images show the images the GANs generate. The rightmost two images display the channel responses of the units from the two GANs during generation, and the middle two show the heatmap overlay of these activation responses on the images. These show what parts of the images the units are contributing to. 
 </p>
 
 ### Future Works

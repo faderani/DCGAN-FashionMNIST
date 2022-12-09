@@ -1,5 +1,5 @@
-# Feature Matching in GANs
-##By: Amil Dravid, Soroush Shahi 
+# Feature Matching and Similarity in GANs
+## By: Amil Dravid, Soroush Shahi  \\
 Northwestern University CS496: Deep Generative Models by Bryan Pardo
 <p align="center">
   <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/generation.gif" alt>

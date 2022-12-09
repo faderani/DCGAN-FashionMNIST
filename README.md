@@ -28,12 +28,12 @@ We took two identical unconditional DCGANs [[4]](https://arxiv.org/pdf/1511.0643
 
 ### Results/Insights
 
-Below we display the similarity matrices as we train the two GANs across multiple epochs. Brighter colors indicate a better match. Notice how there is not perfect correspondence across the top left to bottom right diagonal, which would indicate each corresponding unit in the two GANs match. This suggests that there is significant stochasticity in training GANs, and the GANs will not necessarily learn the same or similar representation in each unit across different runs. A key insight is that the best similarity occurs deeper into the GAN, when the image is almost generated. Interestingly, there is more similarity in the early layers at the beginning of training, but they diverse across the epochs.
+Below we display the similarity matrices as we train the two GANs across multiple epochs. Brighter colors indicate a better match. Notice how there is not perfect correspondence across the top left to bottom right diagonal, which would indicate each corresponding unit in the two GANs match. This suggests that there is significant stochasticity in training GANs, and the GANs will not necessarily learn the same or similar representation in each unit across different runs. A key insight is that the best similarity occurs deeper into the GAN, when the image is almost generated. Interestingly, there is more similarity in the early layers at the beginning of training, but they diverge across the epochs.
 
 <p align="center">
   <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/smiliarity.png" alt>
   <br>
-  Figure 2: The overview of our method.
+  Figure 2: Similarity matrices for the two GANs at the beginning of training and at the end. The downsampled similarity matrices are provided for easier visualization. Notice how the early units lose similarity during training, but the later layers obtain the highest similarity. 
 </p>
 
 Some explanations about results

@@ -55,7 +55,7 @@ Future work will look into matching different architectures. One promising direc
 </p>
 
 #### Teaser
-To this end, we have tried matching a conditional BigGAN [[8]](https://arxiv.org/pdf/1809.11096.pdf) trained on ImageNet [[9]] (https://ieeexplore.ieee.org/document/5206848) with the CLIP visual model. An example of a meaningful match can be found in Figure 5. We fed in 1000 images corresponding to each class in ImageNet, and these discovered units always maximally activate and match for dog faces. The CLIP unit can be confirmed via [OpenAI Microscope](https://microscope.openai.com/models/contrastive_rn50/image_block_3_3_add_5_0/504).
+To this end, we have tried matching a conditional BigGAN [[8]](https://arxiv.org/pdf/1809.11096.pdf) trained on ImageNet [[9]](https://ieeexplore.ieee.org/document/5206848) with the CLIP visual model. An example of a meaningful match can be found in Figure 5. We fed in 1000 images corresponding to each class in ImageNet, and these discovered units always maximally activate and match for dog faces. The CLIP unit can be confirmed via [OpenAI Microscope](https://microscope.openai.com/models/contrastive_rn50/image_block_3_3_add_5_0/504).
 
 <p align="center">
   <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/dog_example.PNG" width="600" alt>

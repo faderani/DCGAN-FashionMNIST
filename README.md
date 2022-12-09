@@ -46,7 +46,7 @@ Some explanations about results
 
 
 <p align="center">
-  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/match_diff.png" alt>
+  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/match_diff.png" width="340" alt>
   <br>
   Figure 4: The overview of our method.
 </p>

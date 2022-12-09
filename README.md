@@ -1,5 +1,6 @@
 # Feature Matching in GANs
-##### Amil Dravid, Soroush Shahi -- Northwestern University CS496: Deep Generative Models by Bryan Pardo
+##By: Amil Dravid, Soroush Shahi 
+Northwestern University CS496: Deep Generative Models by Bryan Pardo
 <p align="center">
   <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/generation.gif" alt>
 <br>

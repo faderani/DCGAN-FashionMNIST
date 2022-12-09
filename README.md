@@ -1,5 +1,5 @@
 # Feature Matching and Similarity in GANs
-## By: Amil Dravid, Soroush Shahi  
+## By: Amil Dravid, Soroush Shahi  <br>
 #### amildravid2023@u.northwestern.edu, soroush@u.northwestern.edu
 ### Northwestern University CS496: Deep Generative Models (Prof. Bryan Pardo)
 <p align="center">

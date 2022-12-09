@@ -62,3 +62,5 @@ To this end, we have tried matching a conditional BigGAN [[8]](https://arxiv.org
   <br>
   Figure 5: A meaningful discovered match between the GAN and CLIP. We display the generated image to the left. The two rightmost maps correspond to the unit responses for these images. The middle two heatmaps correspond to a heatmap overlay of these binary masks which show where the visual attention is.
 </p>
+
+As we discovered the unit in the GAN corresponding to dog faces, we can edit the image by overriding the activation response for that channel with some other value. This is shown in Figure 6. This enables image editing without accessing the initial latent code. We find this a promising future direction to pursue. 

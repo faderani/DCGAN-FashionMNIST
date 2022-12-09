@@ -10,7 +10,7 @@ We took two identical DCGANs and initialized them with random weights from two d
 
 
 <p align="center">
-  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/method.gif">
+  <img src="https://github.com/faderani/DCGAN-Similarity/blob/main/assets/method.gif" alt>
   <em>Figure 2: The overview of our method.</em>
 </p>
 

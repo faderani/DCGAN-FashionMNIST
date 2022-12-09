@@ -8,5 +8,8 @@ one interesting pattern to look at is the similar learned representaions in gene
 ### Method
 We took two identical DCGANs and initialized them with random weights from two different seeds and we call them GAN A and GAN B. This ensures that the two architectures start the training process from different points. We let these two GANs trained with FashionMNISt dataset until convergence. All hyper-parameters are kept the same between the two training process. After training is complete, we unroll both of the networks and compare each feature map from GAN A to each feature map of GAN B and calcualte a similarity score (between 0 and 1). Then we create a similarity score table. The whole process is shown in figure X.
 
-![alt text](assets/method.gif)
+<p align="center">
+  ![alt text](assets/method.gif)
+</p>
+
 

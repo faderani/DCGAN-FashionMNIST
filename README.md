@@ -53,3 +53,6 @@ Future work will look into matching different architectures. One promising direc
   <br>
   Figure 4: Matching GAN with CLIP. We posit that matching a GAN with CLIP can lead to discovering understandable attributes in GANs. The visualizations at the bottom right are the result of activation maximization, finding the maximally activating image for a certain text prompt via gradient ascent on the input image to CLIP.
 </p>
+
+#### Teaser
+To this end, we have tried matching a conditional BigGAN [[8]](https://arxiv.org/pdf/1809.11096.pdf) trained on ImageNet [[9]] (https://ieeexplore.ieee.org/document/5206848) with the CLIP visual model. 
